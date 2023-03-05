@@ -1,5 +1,5 @@
 # tcp-chat
-TCP multi-user chat with Swing UI in Java.
+TCP multi-user chat with Swing UI written in Java.
 
 PL
 ----
