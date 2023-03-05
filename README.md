@@ -1,2 +1,2 @@
 # tcp-chat
-Simple tcp multi-user chat.
+TCP multi-user chat with Swing UI.
