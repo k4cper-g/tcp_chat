@@ -272,12 +272,12 @@ public class UI {
             clientUserName = usernameF.getText();
             ip = ipF.getText();
 
-            if(clientFlag) {
-
             client.setUserName(clientUserName);
             client.setPort(port);
             client.setHostname(ip);
             client.startClient();
+            
+            if(clientFlag) {
 
             field.setEditable(true);
 
