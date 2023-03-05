@@ -24,7 +24,7 @@ Java.net.Socket and java.net.ServerSocket sockets were used for connection.
 
 There are 4 threads implemented:
 
-Server thread - allows the server to work in the background while we use the UI.
-UserHandler thread - allows for handling multiple clients at once.
-ClientWriter thread - allows for writing data from client to server.
-ClientReader thread - allows for reading data from server to client.
+1) Server thread - allows the server to work in the background while we use the UI.
+2) UserHandler thread - allows for handling multiple clients at once.
+3) ClientWriter thread - allows for writing data from client to server.
+4) ClientReader thread - allows for reading data from server to client.
